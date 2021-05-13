@@ -35,3 +35,12 @@ puntaje = 70
 
 # Debe imprimir en pantalla la calificacion
 # Utilizar "if" anidados
+
+
+#Inicio de actividad :
+
+print('Bienvenido a mi actividad')
+
+if 
+
+    

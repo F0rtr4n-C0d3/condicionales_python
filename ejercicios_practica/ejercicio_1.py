@@ -28,3 +28,40 @@ numero_2 = int(input('Ingrese el segundo número:\n'))
 # Verifique si el numero_1 es menor a 10 o el numero_2
 # es mayor a -2
 # Imprima en pantalla si se cumple o no la condición
+
+
+#inicio de la actividad
+
+if numero_1 > numero_2:
+    print('El primer numero={} es mayor que el segundo numero={}'.format(numero_1 , numero_2))
+
+else:
+    print('El segundo numero={} es mayor que el primer numero={}'.format(numero_2, numero_1))
+
+print ('Termino la primera condicion')
+
+if numero_1 > 0:
+    print('El primer numero es positivo={}'.format(numero_1))
+elif numero_1 < 0:
+    print('el primer numero es negativo'.format(numero_1))
+
+else:
+    print('El primer numero es 0')
+
+print('Terminada segunda condicion')
+
+if (numero_1 < 10) and (numero_2 > -2):
+    print('El primer numero={} es menor a 10 y el segundo mayor={} a -2'.format(numero_1 , numero_2))
+
+elif (numero_1 > 10) and (numero_2 < -2):
+    print('el primer numero={} es mayor a 10 y el segundo numero={} menor a -2'.format(numero_1 , numero_2))
+
+else:
+    print('Ningun numero es mayor ni menor')
+
+print('terminada tercera condicion')
+
+#Actividad 1 terminada
+
+
+   
